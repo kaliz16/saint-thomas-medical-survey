@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>CGIP Registration Form</title>
+    <link href="cg_base.css" rel="stylesheet" />
+    <link href="cg_styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="cg_forms.css">
+    <link rel="stylesheet" href="cg_validate.css">
+    <script src="cg_script.js" charset="utf-8"></script>
+</head>
+
+<body>
+   <header>
+      <img src="stmp-ascension-logo.png" alt="Saint Thomas Medical Partners" id="logoimg" />
+   </header>
+
+   <section>
+      <h1>Patient Name</h1>
+      <p>Required Item (*)</p>
+	  <form action="http://www.example/cg/register" method="post">
+	  
+	              <!-- firstName -->
+	              <label for="fnBox">First Name*</label>
+	              <input type="text" name="firstName" id="fnBox" required>
+	  
+	              <!-- LastName -->
+	              <label for="lnBox">Last Name*</label>
+	              <input type="text" name="lastName" id="lnBox" required>
+	  
+	             
+	  
+	              <!-- Button -->
+	              <p><input type="submit" name="Next" value="Next"></p>
+	  
+	          </form>
+	  
+   </section>
+
+</body>
+
+<footer> Saint Thomas Medical Partners </footer> 
+</html>
